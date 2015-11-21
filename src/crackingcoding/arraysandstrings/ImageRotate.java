@@ -1,8 +1,6 @@
 package crackingcoding.arraysandstrings;
 
-import java.util.Arrays;
 
-import sun.tools.jar.resources.jar;
 
 /**
  * Cracking the Coding Interview
@@ -23,7 +21,7 @@ public class ImageRotate {
 			throw new UnsupportedOperationException("The image is not NxN matrix.");
 		}
 		
-		int[][] rotate = new int[n][n];
+		int[][] rotate = new int[n][n];  //Create a new 2-D array
 		
 		for(int i = 0; i < n; i++)
 			for(int j = 0; j < n; j++){
@@ -31,6 +29,12 @@ public class ImageRotate {
 			}
 		return rotate;
 	}
+	
+	
+	public static void rotate2(int[][] image){
+		
+	}
+	
 	
 	public static void main(String[] args) {
 		int[][] image = new int[][]{
