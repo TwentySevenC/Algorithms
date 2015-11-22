@@ -49,7 +49,7 @@ public class StringCompression {
 		return convert;
 	}
 	
-	
+	/** Solution 2 */
 	/** Count the length of converted string */
 	public static int count(String s){
 		
